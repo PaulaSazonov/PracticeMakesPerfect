@@ -1,0 +1,46 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background-image: url("./phone.jpg")
+}
+#lomakecontainer{
+    display: flex;
+    align-self: left;
+    flex-direction: column-reverse;
+}
+.container{
+    background-color:white;
+    border-radius: 30px;
+    margin: 5em;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+
+.lisayskentta {
+    height:2em;
+    width: 10em;
+    border-radius: 10px;
+    margin:  1em; 
+    
+}
+
+#nappi  {
+    background-color: lightblue;
+    height: 2.5em;
+    width: 10em;
+    border-radius: 10px;
+    font-weight: bolder;
+
+}
+ul {
+    list-style-type: none;
+    font-size: larger;
+}
+li:hover{
+    cursor: pointer;
+}
+p {
+    font-size: small;
+}
