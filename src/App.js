@@ -1,8 +1,8 @@
 import React from 'react';
-import Luettelo from './Luettelo';
-import Lisayslomake from './Lisayslomake';
-import Filtteri from './Filtteri';
-import './App.css';
+import Luettelo from './components/Luettelo';
+import Lisayslomake from './components/Lisayslomake';
+import Filtteri from './components/Filtteri';
+import './stylesheets/App.css';
 
 class App extends React.Component {
   constructor(props) {

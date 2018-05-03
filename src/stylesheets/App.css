@@ -1,7 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    background-image: url("./phone.jpg")
+    background-image: url("../images/phone.jpg")
 }
 #lomakecontainer{
     display: flex;
@@ -22,8 +22,13 @@ body {
     height:2em;
     width: 10em;
     border-radius: 10px;
-    margin:  1em; 
-    
+    margin:  1em;  
+}
+#rajauskentta{
+    height:2em;
+    width: 20em;
+    border-radius: 10px;
+    margin:  1em;  
 }
 
 #nappi  {
